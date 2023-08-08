@@ -1,0 +1,11 @@
+def menu():
+    print('-'*30)
+    print(f'{"MENU PRINCIPAL":^30}')
+    print('-'*30)
+    print('\033[33m1\033[0m ',end='\033[37m- \033[0m')
+    print('\033[34mVer pessoas cadastradas \033[34m')
+    print('\033[33m2\033[0m ',end='\033[37m- \033[0m')
+    print('\033[34mCadastrar novas pessoas \033[34m')
+    print('\033[33m3\033[0m ',end='\033[37m- \033[0m')
+    print('\033[34mSair do sistema \033[34m ')
+    print('-'*30)
